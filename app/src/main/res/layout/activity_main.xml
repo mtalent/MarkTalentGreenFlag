@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_main_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/logo_green_flagx"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/company_logo" />
+
+
+
+    <TextView
+        android:id="@+id/tv_list_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/car_health_updates"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/museosans_300"
+        app:layout_constraintStart_toEndOf="@id/iv_check_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_list_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/request_a_rescue_online"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/museosans_300"
+        app:layout_constraintTop_toBottomOf="@id/tv_list_1"
+        app:layout_constraintStart_toEndOf="@id/iv_check_1"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_list_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/policy_information"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/museosans_300"
+        app:layout_constraintTop_toBottomOf="@id/tv_list_2"
+        app:layout_constraintStart_toEndOf="@id/iv_check_1"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_topline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greenflag_customers_can_n_create_an_account_to_access"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:fontFamily="@font/museosans_500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv_list_1"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_check_1"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tickx"
+        app:layout_constraintBottom_toBottomOf="@id/tv_list_1"
+        app:layout_constraintTop_toTopOf="@id/tv_list_1"
+        app:layout_constraintStart_toStartOf="@id/tv_topline"/>
+
+
+    <ImageView
+        android:id="@+id/iv_check_2"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tickx"
+        app:layout_constraintStart_toStartOf="@id/tv_topline"
+        app:layout_constraintBottom_toBottomOf="@id/tv_list_2"
+        app:layout_constraintTop_toTopOf="@id/tv_list_2"/>
+
+    <ImageView
+        android:id="@+id/iv_check_3"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tickx"
+        app:layout_constraintStart_toStartOf="@id/tv_topline"
+        app:layout_constraintBottom_toBottomOf="@id/tv_list_3"
+        app:layout_constraintTop_toTopOf="@id/tv_list_3"/>
+
+    <TextView
+        android:id="@+id/tv_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/museosans_500"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:text="@string/create_an_account"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/gradient_button_backgroundx"
+        tools:ignore="RtlCompat" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

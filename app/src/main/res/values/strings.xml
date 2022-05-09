@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MarkTalentGreenFlag</string>
+    <string name="car_health_updates">Car Health Updates</string>
+    <string name="policy_information">Policy information</string>
+    <string name="request_a_rescue_online">Request a rescue online</string>
+    <string name="greenflag_customers_can_n_create_an_account_to_access">GreenFlag customers can \n create an account to access</string>
+    <string name="company_logo">company logo</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="password_instructions">Your password should have a minimum of 8\n characters and contain at least one \n number, one uppercase and one lower\n case letter . You can use special characters</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
